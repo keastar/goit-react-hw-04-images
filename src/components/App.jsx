@@ -26,6 +26,7 @@ export default function App() {
     if (!searchImgName) return;
 
     getImgs();
+    // eslint-disable-next-line
   }, [searchImgName]);
 
   //принимаю с формы запрос и пишу в стейт, сбрасывается после отправки стейтa из inputa
